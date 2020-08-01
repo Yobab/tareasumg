@@ -1,0 +1,76 @@
+html{
+    height:100%
+}
+body{
+    background-image: url('../img/1.png');
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.contenedor{
+    width:70%;
+    background-color: black;
+    color:white;
+    text-align: justify;
+    padding:5px 50px;
+    margin:10px auto;
+    flex: 1 0;
+}
+
+.contenedor h3{
+    color:orange;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenedor p{
+    color:orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+#encabezado{
+    background-color: #333333;
+    color: #ffffff;
+    padding:5px
+}
+#barra{
+    font-weight: bold;
+}
+#barra #izquierda{
+    float: left;
+    padding-left: 10px;
+}
+#barra li{
+    display: inline;
+    padding-left:10px;
+    padding-right:20px
+}
+#barra ul{
+    text-align: right;
+    list-style: none;
+}
+#barra a{
+    text-decoration: none;
+    color: white;
+}
+#imagenclass{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+#imagenclass img{
+    height:40%;
+    width: 50%;
+    padding: 20px;
+}
+#mainfooter{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    flex-shrink: 0;
+}
